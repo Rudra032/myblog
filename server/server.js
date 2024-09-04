@@ -27,7 +27,7 @@ const connectDB = async () => {
     await mongoose.connect(
       "mongodb+srv://rudrarathore148:Tarun%40%23%24123@cluster0.yn8ir.mongodb.net/myDatabase?retryWrites=true&w=majority"
     );
-    console.log("Connected to MongoDB");
+    console.log("Connected to MongoDB database");
   } catch (err) {
     console.error("Failed to connect to MongoDB", err);
   }
